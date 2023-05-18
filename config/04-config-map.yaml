@@ -1,0 +1,56 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wealthcare-monolith-config-map
+  namespace: wealthcare-monolith-ns
+  labels:
+    app: wealthcare-monolith-app
+    subname: configmap
+type: Opaque
+data:
+  ##### User and FinancialPlan services
+  #apiUrlUser: http://wealthcare-user-wealthcare-monolith-ns.gsidevint-4c84f1rs.appdomain.cloud/
+  #apiUrlFinancialplan: http://wealthcare-financialplan-wealthcare-monolith-ns.gsidevint-4c84f1rs.appdomain.cloud/
+  apiUrlFinancialplan: http://wealthcare-user-wealthcare-monolith-ns.apps.cluster-ts4j6.ts4j6.sandbox542.opentlc.com/financialplan/
+  apiUrlUser: http://wealthcare-user-wealthcare-monolith-ns.apps.cluster-ts4j6.ts4j6.sandbox542.opentlc.com/user/
+  
+  ##### MQ
+  configMapMqConnName: 111.222.333.444(1414)
+  configMapMqQueueManager: qmgr
+  configMapMqChannel: DEV.APP.SVRCONN
+  configMapMqQueueNameFinancialPlan: DEV.QUEUE.1
+  configMapMqQueueNameCustomer: DEV.QUEUE.2
+  configMapMqQueueNameWealthManager: DEV.QUEUE.3
+  configMapMqDeadQueueName: DEV.DEAD.LETTER.QUEUE
+  
+  ##### DB-H2
+  #databaseUrl: jdbc:h2:mem:/wcare
+  #databaseUsername: admin
+  #databasePassword: admin
+  #databaseDriverClass: org.h2.Driver
+  #databasePlatform: org.hibernate.dialect.H2Dialect
+  
+  ##### DB-MySQL
+  databaseUrl: jdbc:mysql://mysql:3306/BLUDB
+  databaseUsername: admin
+  databasePassword: admin
+  databaseDriverClass: com.mysql.jdbc.Driver
+  databasePlatform: org.hibernate.dialect.MySQL5Dialect
+  
+  ##### DB-DB2
+  # databaseUrl: jdbc:db2://111.222.33.444:31463/wcare
+  # databaseUsername: usr
+  # databasePassword: pwddd
+  # databaseDriverClass: com.ibm.db2.jcc.DB2Driver
+  # databasePlatform: org.hibernate.dialect.DB2Dialect
+  
+  ##### Notification
+  configMapAppNotificationFrom: test
+  configMapAppNotificationCC: test
+  configMapAppNotificationOpenWhiskUser: testconfigmap.test1.key
+  configMapAppNotificationOpenWhiskPassword: test
+  configMapAppNotificationOpenWhiskUrl: test@teset11.com
+  
+  ##### Watson FinancialPlan
+  watsonOptionEnabled: "false"
+  watsonUrlFinancialPlan: https://test@test11.com
