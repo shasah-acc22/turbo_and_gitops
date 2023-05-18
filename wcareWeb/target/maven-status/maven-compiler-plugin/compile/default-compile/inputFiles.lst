@@ -1,0 +1,14 @@
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/customer/CusFinancialPlanListServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/customer/CusFinancialPlanDetailServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/wealthmanager/WmFinancialPlanListServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/wealthmanager/WmProfileListServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/businessmanager/BmWealthManagerListServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/wealthmanager/WmFinancialPlanDetailServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/wealthmanager/WmInvestmentAddServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/wealthmanager/WmPortfolioListServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/wealthmanager/WmCustomerListServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/businessmanager/BmCustomerListServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/customer/CusPortfolioListServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/LoginServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/wealthmanager/WmFinancialPlanAddServlet.java
+/home/lab-user/wealthcare-monolith-maven-app/wcareWeb/src/main/java/com/gan/wcare/servlet/customer/CusProfileListServlet.java
